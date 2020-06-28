@@ -585,11 +585,12 @@ REVIEWS
 =========================
 */
 .reviews{
-  background: rgb(47,47,47);
+	background: rgb(47,47,47);
+	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.7)), url('../images/con2.jpg') center/cover no-repeat;
 }
 
 .student{
-  position: relative;
+	position: relative;
   background: var(--clr-grey-2);
   text-align: center;
   margin: 2rem 2rem;
@@ -601,26 +602,26 @@ REVIEWS
   grid-template-rows: auto 1fr auto auto auto;
 }
 .student-icon{
-  color: var(--clr-green);
+	color: var(--clr-green);
   font-size: 3rem;
 }
 .student-text{
-  max-width: 27rem;
+	max-width: 27rem;
   margin: 0 auto ;
   color: var(--clr-platinum);
 }
 .student-name{
-  margin-top: 1rem;
+	margin-top: 1rem;
   color: var(--clr-green);
   font-weight: 900;
 }
 .student-place{
-  text-transform: uppercase;
+	text-transform: uppercase;
   color: var(--clr-grey-8);
   margin-bottom: 4rem;
 }
 .student-image{
-  /* margin-top: 7rem; */
+	/* margin-top: 7rem; */
   width: 9rem!important;
   border-radius: 50%;
   text-align: center;
@@ -629,6 +630,9 @@ REVIEWS
   bottom: 0%;
   transform: translate(-50%,50%);
 }
+
+
+
 
 /*
 =========================
@@ -716,7 +720,7 @@ textarea::placeholder{
     align-self: center;
   }
   .contact-info{
-    align-self: center;
+		align-self: center;
   }
 }
 
