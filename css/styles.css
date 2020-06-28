@@ -225,7 +225,8 @@ NAVBAR
   display: inline-block;
   padding: 2px;
   cursor: pointer;
-  border: 2px solid var(--clr-green);
+	border: 2px solid var(--clr-green);
+	border-radius: 6px;
 }
 .bar-1,.bar-2,.bar-3{
   width: 25px;
@@ -451,7 +452,7 @@ ABOUT
 */
 
 .about{
-  /* background: var(--clr-grey-1); */
+  background: var(--clr-grey-1);
 }
 .about-img{
   clip-path: polygon(60% 0, 100% 50%, 60% 100%, 0 100%, 0 0);
@@ -529,6 +530,89 @@ REVIEWS
 CONTACT
 =========================
 */
+
+.contact{
+	background: var(--clr-grey-9);
+}
+.contact-title{
+	color: var(--clr-blue);
+	font-family: var(--ff-tertiary);
+}
+.contact-head{
+	display: grid;
+	grid-template-columns: auto 1fr;
+	margin: 2rem 0;
+}
+.contact-icon{
+	font-size: 2.5rem;
+	margin-right: 1rem;
+	align-self: center;
+	color: var(--clr-green);
+}
+.contact-head h4{
+	color: var(--clr-green);
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+	font-family: var(--ff-secondary);
+}
+.contact-head p{
+	text-transform: capitalize;
+}
+
+.contact-form{
+	background: var(--clr-white);
+	border-radius: var(--radius);
+}
+.contact-form h4{
+	width: 100%;
+	text-align: center;
+	padding: 1rem 0;
+	background: var(--clr-green);
+	border-top-left-radius: var(--radius);
+	border-top-right-radius: var(--radius);
+	color: var(--clr-white);
+	font-family: var(--ff-tertiary);
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 1.5rem;
+}
+.form-item{
+	background: transparent;
+	border: none;
+	margin: 0.5rem 0;
+	text-transform: capitalize;
+	border-bottom: 2px solid var(--clr-green);
+	font-size: 1.1rem;
+	outline: none;
+}
+.form-btn{
+	margin: 1.5rem 0 1rem;
+	padding: 0.5rem 0;
+	border: none;
+	border-radius: var(--radius);
+	text-transform: uppercase;
+	font-size:1rem ;
+	background: var(--clr-green);
+	color: var(--clr-white);
+}
+@media screen and (min-width:776px){
+.contact-center{
+	display: grid;
+	grid-template-columns: 60% 40%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*
