@@ -5,7 +5,7 @@ $(document).ready(function () {
   $('.nav-btn').click(function () {
 
     // displaying links on click
-    $('.nav-links').slideToggle(1500);
+    $('.nav-links').slideToggle(1000);
 
     // changing nav button
     $('.nav-btn').toggleClass('turn');
