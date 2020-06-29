@@ -61,6 +61,28 @@ $(document).ready(function () {
   })
 
 
+	// owl carousel
+  $('.services-center').owlCarousel({
+    loop: false,
+    margin: 10,
+    nav: true,
+    slideBy: 3,
+    // dots:false,
+    smartSpeed:1000,
+    autoHeight: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+			}
+			
+    },
+    navText: ["prev", "next"]
+  })
+
+
 })
 
 
