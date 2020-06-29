@@ -154,8 +154,9 @@ box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 border-radius: var(--radius);
 }
 .btn:hover {
-background: var(--clr-white);
-color: var(--clr-green);
+background: var(--clr-light-green);
+color: var(--clr-dark-green);
+border-color: var(--clr-dark-green);
 }
 
 /* section */
