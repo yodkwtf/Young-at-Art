@@ -37,15 +37,18 @@ $(document).ready(function () {
 
   })
 
-  // owl carousel
+  // owl carousel for reviews
   $('.reviews-center').owlCarousel({
-    loop: false,
+    loop: true,
     margin: 10,
     nav: true,
-    slideBy: 3,
+    slideBy: 1,
     // dots:false,
-    smartSpeed:1000,
-    // autoHeight: true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplaySpeed: 3000,
+    smartSpeed:3000,
+    autoHeight: true,
     responsive: {
       0: {
         items: 1
@@ -57,25 +60,24 @@ $(document).ready(function () {
         items: 3
       }
     },
-    navText: ["prev", "next"]
   })
 
 
-	// owl carousel
+	// owl carousel for services
   $('.services-center').owlCarousel({
     loop: false,
     margin: 10,
     nav: true,
-    slideBy: 3,
+    slideBy: 2,
     // dots:false,
-    smartSpeed:1000,
+    smartSpeed:800,
     autoHeight: true,
     responsive: {
       0: {
         items: 1
       },
-      600: {
-        items: 1
+      768: {
+        items: 2
 			}
 			
     },
