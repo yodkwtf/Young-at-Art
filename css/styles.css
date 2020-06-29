@@ -15,7 +15,7 @@ Variables
 
 /* darkest grey - used for headings */
 --clr-grey-1: hsl(209, 61%, 16%);
---clr-grey-2: hsl(211, 39%, 23%);
+--clr-grey-2: #243a52;
 --clr-grey-3: hsl(209, 34%, 30%);
 --clr-grey-4: hsl(209, 28%, 39%);
 /* grey used for paragraphs */
@@ -276,7 +276,7 @@ NAVBAR
   transition: var(--transition);
 }
 .fa-instagram{
-  color:#C3236B;
+  color:#F24D6F;
 }
 .fa-twitter{
   color: #50ABF1;
@@ -585,7 +585,7 @@ REVIEWS
 =========================
 */
 .reviews{
-	background: rgb(47,47,47);
+	/* background: rgb(47,47,47); */
 	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.7)), url('../images/con2.jpg') center/cover no-repeat;
 }
 

@@ -44,7 +44,7 @@ $(document).ready(function () {
     nav: true,
     slideBy: 3,
     // dots:false,
-    smartSpeed:1500,
+    smartSpeed:1000,
     // autoHeight: true,
     responsive: {
       0: {
@@ -56,7 +56,8 @@ $(document).ready(function () {
       900: {
         items: 3
       }
-    }
+    },
+    navText: ["prev", "next"]
   })
 
 
