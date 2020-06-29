@@ -497,6 +497,25 @@ SERVICES
 =========================
 */
 
+.service{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 0rem 1rem;
+}
+.service-image{
+  max-height: 17rem;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+.service-title{
+  width: 100%;
+  text-align: center;
+  background: var(--clr-green);
+  color: var(--clr-white);
+  padding: 0.5rem 0;
+  margin-top: 0;
+  border-radius: var(--radius);
+}
 
 /*
 =========================
@@ -587,7 +606,7 @@ REVIEWS
 */
 .reviews{
 	/* background: rgb(47,47,47); */
-	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.7)), url('../images/con2.jpg') center/cover no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.7)), url('../images/review-bcg.jpg') center/cover no-repeat;
 }
 
 .student{
@@ -601,6 +620,7 @@ REVIEWS
   height: 70%;
   display: grid;
   grid-template-rows: auto 1fr auto auto auto;
+  box-shadow: var(--dark-shadow);
 }
 .student-icon{
 	color: var(--clr-green);
@@ -610,6 +630,7 @@ REVIEWS
 	max-width: 27rem;
   margin: 0 auto ;
   color: var(--clr-platinum);
+  align-self: center;
 }
 .student-name{
 	margin-top: 1rem;
