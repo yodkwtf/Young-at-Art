@@ -32,7 +32,7 @@ $(document).ready(function () {
 
     let target = $(this).attr('href');
     $('html, body').stop().animate({
-      scrollTop: $(target).offset().top
+      scrollTop: $(target).offset().top - 79
     }, 1500);
 
   })
@@ -42,6 +42,7 @@ $(document).ready(function () {
     loop: true,
     margin: 10,
     nav: true,
+    nav:false,
     slideBy: 1,
     // dots:false,
     autoplay:true,
@@ -63,12 +64,15 @@ $(document).ready(function () {
   })
 
 
-	// owl carousel for services
-  $('.services-center').owlCarousel({
+	// owl carousel for works
+  $('.works-center').owlCarousel({
     loop: false,
-    margin: 10,
+    margin: 40,
     nav: true,
-    slideBy: 2,
+    // autoplay: true,
+    // autoplayTimeout: 3000,
+    // autoplaySpeed: 3000,
+    slideBy: 3,
     // dots:false,
     smartSpeed:800,
     autoHeight: true,
@@ -78,8 +82,10 @@ $(document).ready(function () {
       },
       768: {
         items: 2
-			}
-			
+      },
+      1170: {
+        items: 3
+      }
     },
     navText: ["prev", "next"]
   })
