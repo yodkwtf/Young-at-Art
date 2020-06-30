@@ -617,7 +617,7 @@ WORKS
   color: var(--clr-green);
   font-family: var(--ff-tertiary);
   font-size:2rem;
-  align-self: center;
+  align-self: baseline;
 }
 .work-icon i{
   font-size: 2.2rem;
@@ -639,15 +639,6 @@ WORKS
   background: var(--clr-black);
   color: var(--clr-blue);
 }
-
-
-
-
-
-
-
-
-
 
 
 

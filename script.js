@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 
-
+  
   $('.nav-btn').click(function () {
 
     // displaying links on click
@@ -9,8 +9,19 @@ $(document).ready(function () {
 
     // changing nav button
     $('.nav-btn').toggleClass('turn');
+    
+  })
+  
+  $('.nav-link').click(function () {
+
+    // hiding links on click
+    $('.nav-links').slideToggle(0);
+
+    // changing nav button
+    $('.nav-btn').toggleClass('turn');
 
   })
+
 
 
   $(window).scroll(function () {
