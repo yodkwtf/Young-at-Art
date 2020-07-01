@@ -573,6 +573,7 @@ WORKS
 }
 .works-title{
   text-shadow: 2px 2px 2px var(--clr-white);
+  padding: 0 1rem;
 }
 .works-center{
   max-width: 1400px;
@@ -638,62 +639,6 @@ WORKS
 .works-btn:hover{
   background: var(--clr-black);
   color: var(--clr-blue);
-}
-
-
-
-
-/*
-=========================
-STATS
-=========================
-*/
-
-.stats{
-  background: var(--clr-grey-9);
-  min-height: 50vh;
-  margin-top: 0;
-}
-.stats-title{
-  padding-top: 4rem;
-  margin-top: 0;
-}
-.stat{
-    text-align: center;
-    margin-bottom: 2rem;
-}
-.stat-icon{
-    color: var(--clr-green);
-    font-size: 3rem;
-}
-.stat-number{
-    font-size: 2.8rem;
-    color: rgba(0, 0, 0, 0.8);
-    transition: var(--transition);
-    font-family: var(--ff-secondary);
-}
-.stat:hover .stat-number{
-    transform: scale(1.2);
-}
-.stat-title{
-    text-transform: capitalize;
-    font-size: 1.5rem;
-}
-
-.stats-center{
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-@media screen and (min-width:576px){
-  .stats-center{
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (min-width:992px){
-  .stats-center{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
 }
 
 
