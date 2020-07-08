@@ -3,28 +3,28 @@ $(document).ready(function () {
 
   
   
-  var mq = window.matchMedia("(max-width: 992px)");
-  if (mq.matches) {
-    
-    $('.nav-btn').click(function () {
   
-      // displaying links on click
-      $('.nav-links').slideToggle(1000);
-  
-      // changing nav button
-      $('.nav-btn').toggleClass('turn');
-      
-    })
-      $('.nav-link').click(function () {
+  $('.nav-btn').click(function () {
     
+    // displaying links on click
+    $('.nav-links').slideToggle(1000);
+    
+    // changing nav button
+    $('.nav-btn').toggleClass('turn');
+    
+  })
+  $('.nav-link').click(function () {
+    
+    var mq = window.matchMedia("(max-width: 992px)");
+    if (mq.matches) {
         // hiding links on click
-        $('.nav-links').slideToggle(0);
+        $('.nav-links').slideToggle(1000);
     
         // changing nav button
         $('.nav-btn').toggleClass('turn');
+      }
     
       })
-    }
   
 
 
