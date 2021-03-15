@@ -467,8 +467,9 @@ ABOUT
 }
 .about-img{
   -webkit-clip-path: polygon(60% 0, 100% 50%, 60% 100%, 0 100%, 0 0);
-          clip-path: polygon(60% 0, 100% 50%, 60% 100%, 0 100%, 0 0);
+          clip-path: polygon(60% 0, 100% 50%, 60% 100%, 0% 100%, 0 0);
   max-height: 35rem;
+  width: 100%;
 }
 .about-info{
   padding: 2rem;
